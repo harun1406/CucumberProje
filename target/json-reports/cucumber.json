@@ -1,0 +1,269 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-24T19:53:18.173Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "TC06_kullanici ebayda urun arar",
+        "description": "",
+        "id": "ebayda-arama;tc06-kullanici-ebayda-urun-arar;test-verileri;2",
+        "after": [
+          {
+            "result": {
+              "duration": 797000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13544000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici \"http://ebay.com\" sayfasina gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://ebay.com\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.EbayStepDefinitions.kullanici_sayfasina_gider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2118000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici ebayda aramakutusuna \"araba\" yazar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"araba\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepdefinitions.EbayStepDefinitions.kullanici_ebayda_aramakutusuna_yazar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici ebaydaki sonuc sayisini ekrana yazar",
+            "match": {
+              "location": "stepdefinitions.EbayStepDefinitions.kullanici_ebaydaki_sonuc_sayisini_ekrana_yazar()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ebayarama"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-24T19:53:34.691Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "TC06_kullanici ebayda urun arar",
+        "description": "",
+        "id": "ebayda-arama;tc06-kullanici-ebayda-urun-arar;test-verileri;3",
+        "after": [
+          {
+            "result": {
+              "duration": 361000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1405000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici \"http://ebay.com\" sayfasina gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://ebay.com\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.EbayStepDefinitions.kullanici_sayfasina_gider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1974000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici ebayda aramakutusuna \"bebek arabası\" yazar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bebek arabası\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepdefinitions.EbayStepDefinitions.kullanici_ebayda_aramakutusuna_yazar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici ebaydaki sonuc sayisini ekrana yazar",
+            "match": {
+              "location": "stepdefinitions.EbayStepDefinitions.kullanici_ebaydaki_sonuc_sayisini_ekrana_yazar()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ebayarama"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-24T19:53:38.470Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "TC06_kullanici ebayda urun arar",
+        "description": "",
+        "id": "ebayda-arama;tc06-kullanici-ebayda-urun-arar;test-verileri;4",
+        "after": [
+          {
+            "result": {
+              "duration": 455000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 858000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici \"http://ebay.com\" sayfasina gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://ebay.com\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.EbayStepDefinitions.kullanici_sayfasina_gider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1777000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici ebayda aramakutusuna \"bisiklet\" yazar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bisiklet\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepdefinitions.EbayStepDefinitions.kullanici_ebayda_aramakutusuna_yazar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici ebaydaki sonuc sayisini ekrana yazar",
+            "match": {
+              "location": "stepdefinitions.EbayStepDefinitions.kullanici_ebaydaki_sonuc_sayisini_ekrana_yazar()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ebayarama"
+          }
+        ]
+      }
+    ],
+    "name": "Ebayda Arama",
+    "description": "",
+    "id": "ebayda-arama",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/ebay.feature",
+    "tags": []
+  }
+]

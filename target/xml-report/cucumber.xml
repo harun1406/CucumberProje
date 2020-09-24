@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="23.729">
+<testcase classname="Ebayda Arama" name="TC06_kullanici ebayda urun arar" time="16.511">
+<system-out><![CDATA[Given kullanici "http://ebay.com" sayfasina gider...........................passed
+And kullanici ebayda aramakutusuna "araba" yazar............................passed
+Then kullanici ebaydaki sonuc sayisini ekrana yazar.........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Ebayda Arama" name="TC06_kullanici ebayda urun arar 2" time="3.775">
+<system-out><![CDATA[Given kullanici "http://ebay.com" sayfasina gider...........................passed
+And kullanici ebayda aramakutusuna "bebek arabası" yazar....................passed
+Then kullanici ebaydaki sonuc sayisini ekrana yazar.........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Ebayda Arama" name="TC06_kullanici ebayda urun arar 3" time="3.122">
+<system-out><![CDATA[Given kullanici "http://ebay.com" sayfasina gider...........................passed
+And kullanici ebayda aramakutusuna "bisiklet" yazar.........................passed
+Then kullanici ebaydaki sonuc sayisini ekrana yazar.........................passed
+]]></system-out>
+</testcase>
+</testsuite>
